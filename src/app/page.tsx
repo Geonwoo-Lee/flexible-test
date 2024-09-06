@@ -1,5 +1,4 @@
 'use client'
-import Image from "next/image";
 import BottomSheet from "@/app/component/BottomSheetSelect";
 import {useState} from "react";
 
