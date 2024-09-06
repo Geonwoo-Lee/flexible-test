@@ -44,7 +44,7 @@ const BottomSheet: React.FC<BottomSheetPropsType> = ({
             item ? (
                 <animated.div
                     style={{ ...style, left: "50%", transform: "translateX(-50%)" }}
-                    className="w-full max-w-[640px]  bg-alpha-00 rounded-t-[24px] max-h-1/2 fixed bottom-0 z-[60]"
+                    className="w-full max-w-[640px] bg-alpha-00 rounded-t-[24px] max-h-1/2 fixed bottom-0 z-[60]"
                 >
                   <div
                       className={`${!nonPadding && "pl-6 pr-6 pt-[24px] pb-[34px]"} `}

@@ -11,10 +11,10 @@ export default function Home() {
       </button>
       <BottomSheet onClose={() => {setBottomSheetOpen(false)}} open={bottomSheeetOpen} >
         <div className="flex flex-col gap-6  pt-6">
-          <div className="text-xxl font-semiBold">
+          <div className="text-xxl font-semiBold text-t-primary">
             Notice
           </div>
-          <div className="p-4 bg-bg-state rounded-[12px]">
+          <div className="p-4 bg-bg-state rounded-[12px] text-t-primary">
             <ul className="flex flex-col gap-1 pl-4 max-h-[300px] overflow-auto  list-disc  text-sm  font-regular">
               <li>The miles earned in the corresponding month of the previous year will automatically expire at 00:00 (UTC) on the 15th of each month.</li>
               <li>Miles can only be used within the Alt.town service and cannot be used with other services.</li>
